@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Radium Corp";
+  src: url('RadiumCorp.ttf');
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Radium Corp";
+}
+
+
+main#container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+main section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+section video.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
